@@ -79,6 +79,9 @@ markdown
      2   6
     / \  / \
    1   3 5  7
+
+
+   
 Traversal Type	Output Sequence
 In-Order (Left → Root → Right)	1 → 2 → 3 → 4 → 5 → 6 → 7
 Pre-Order (Root → Left → Right)	4 → 2 → 1 → 3 → 6 → 5 → 7

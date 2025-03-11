@@ -38,3 +38,53 @@ How to Build:
 Open the project in your IDE and press F5 to build and run the application.
 *******************:**************************************
 
+
+*:**********************************************************
+"Traversal" Mean?
+Traversal in data structures means visiting each node of a tree or graph in a specific order to process its data.
+
+🔹 Why Do We Need Traversal?
+To search for an element in a tree or graph.
+To process all nodes (e.g., calculating sum, finding min/max).
+To convert a tree into a list (e.g., in-order traversal for BST sorting).
+🔹 Types of Tree Traversals
+Tree traversal is mainly divided into two categories:
+
+1️⃣ Depth-First Traversal (DFS)
+This means going as deep as possible before backtracking.
+Three common DFS types:
+
+In-Order (Left → Root → Right)
+
+Used for BST sorting.
+Example: 1 → 2 → 3 → 4 → 5 → 6 → 7
+Pre-Order (Root → Left → Right)
+
+Used for creating a copy of the tree.
+Example: 4 → 2 → 1 → 3 → 6 → 5 → 7
+Post-Order (Left → Right → Root)
+
+Used for deleting a tree (bottom-up processing).
+Example: 1 → 3 → 2 → 5 → 7 → 6 → 4
+2️⃣ Breadth-First Traversal (BFS)
+This means visiting nodes level by level (also called Level Order Traversal).
+
+Example: 4 → 2 → 6 → 1 → 3 → 5 → 7
+Used in shortest path algorithms.
+🔹 Example Tree
+markdown
+Copy
+Edit
+       4
+      / \
+     2   6
+    / \  / \
+   1   3 5  7
+Traversal Type	Output Sequence
+In-Order (Left → Root → Right)	1 → 2 → 3 → 4 → 5 → 6 → 7
+Pre-Order (Root → Left → Right)	4 → 2 → 1 → 3 → 6 → 5 → 7
+Post-Order (Left → Right → Root)	1 → 3 → 2 → 5 → 7 → 6 → 4
+Level-Order (BFS)	4 → 2 → 6 → 1 → 3 → 5 → 7
+
+:*******************************************************************
+

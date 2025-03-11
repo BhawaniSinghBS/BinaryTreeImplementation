@@ -73,8 +73,7 @@ Example: 4 → 2 → 6 → 1 → 3 → 5 → 7
 Used in shortest path algorithms.
 🔹 Example Tree
 markdown
-Copy
-Edit
+
        4
       / \
      2   6
